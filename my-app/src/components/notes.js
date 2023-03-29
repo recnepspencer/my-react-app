@@ -20,6 +20,9 @@ class Notes extends Component {
                         <li>
                             when you need to run code with callback funtion, put it in the setState function rather than after
                         </li>
+                        <li>
+                            13 4:27 I need to understand better how the calling of the function works with regards to not putting parentheses.
+                        </li>
                     </ul>
                 </p>
             </div>
