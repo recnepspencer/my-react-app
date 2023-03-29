@@ -17,6 +17,9 @@ class Notes extends Component {
                         <li>
                             Can you do routing in react? 
                         </li>
+                        <li>
+                            when you need to run code with callback funtion, put it in the setState function rather than after
+                        </li>
                     </ul>
                 </p>
             </div>
