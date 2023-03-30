@@ -18,17 +18,21 @@ import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA></LifecycleA>
+      <Table></Table>
+      {/* <FragmentDemo></FragmentDemo> */}
+      {/* <LifecycleA></LifecycleA>
       <Form></Form>
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Inline></Inline>
       <Stylesheets primary={false}></Stylesheets>
-      <NameList></NameList>
+      <NameList></NameList> */}
       {/* <UserGreeting></UserGreeting>
       <ParentComponent></ParentComponent>
       <EventBind></EventBind>
