@@ -23,6 +23,7 @@ class Notes extends Component {
                         <li>
                             13 4:27 I need to understand better how the calling of the function works with regards to not putting parentheses.
                         </li>
+                        <li>Using keys helps the code render more efficiently. Does it just break the code if you try making a key that isn't unique?</li>
                     </ul>
                 </p>
             </div>
