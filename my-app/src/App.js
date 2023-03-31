@@ -22,12 +22,21 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import PureComponent from './components/PureComponent';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRInput from './components/FRInput';
+import FRIParentInput from './components/FRIParentInput';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
     <div className="App">
-      <Table></Table>
-      <ParentComp></ParentComp>
+      <PortalDemo></PortalDemo>
+      {/* <FRIParentInput></FRIParentInput> */}
+      {/* <FocusInput></FocusInput> */}
+      {/* <RefsDemo></RefsDemo> */}
+      {/* <Table></Table>
+      <ParentComp></ParentComp> */}
       {/* <FragmentDemo></FragmentDemo> */}
       {/* <LifecycleA></LifecycleA>
       <Form></Form>
