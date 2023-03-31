@@ -24,6 +24,7 @@ class Notes extends Component {
                             13 4:27 I need to understand better how the calling of the function works with regards to not putting parentheses.
                         </li>
                         <li>Using keys helps the code render more efficiently. Does it just break the code if you try making a key that isn't unique?</li>
+                        <li>Regular components don't implement shouldComponentUpdate method. It always returns true by default. Pure Components implement shouldComponentUpdate with a shallow props and state comparison</li>
                     </ul>
                 </p>
             </div>
